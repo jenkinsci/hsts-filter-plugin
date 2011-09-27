@@ -38,6 +38,8 @@ import org.kohsuke.stapler.StaplerRequest;
  * indicating that <a
  * href="http://tools.ietf.org/html/draft-hodges-strict-transport-sec-02">HTTP
  * Strict Transport Security</a> (HSTS) response headers should be utilized.
+ * 
+ * @author <a href="mailto:jieryn@gmail.com">Jesse Farinacci</a>
  */
 @Extension
 public final class HstsFilterPageDecorator extends PageDecorator
