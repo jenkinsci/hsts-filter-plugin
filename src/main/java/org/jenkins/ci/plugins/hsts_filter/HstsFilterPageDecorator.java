@@ -94,10 +94,10 @@ public final class HstsFilterPageDecorator extends PageDecorator
       final boolean includeSubDomains)
   {
     super();
-    load();
     this.sendHeader = sendHeader;
     this.maxAge = maxAge;
     this.includeSubDomains = includeSubDomains;
+    load();
   }
 
   @Override
