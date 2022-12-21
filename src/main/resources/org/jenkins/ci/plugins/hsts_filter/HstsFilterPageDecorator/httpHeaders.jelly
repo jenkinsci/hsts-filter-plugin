@@ -26,9 +26,9 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
   <j:if test="${it.sendHeader}">
     <j:if test="${it.includeSubDomains}">
-      <st:header name="Strict-Transport-Security" value="max-age=${it.maxAge} ; includeSubDomains"/>
+      <st:header name="Strict-Transport-Security" value="max-age=${it.maxAge}; includeSubDomains"/>
     </j:if>
-    <j:if test="!${it.includeSubDomains}">
+    <j:if test="${!it.includeSubDomains}">
       <st:header name="Strict-Transport-Security" value="max-age=${it.maxAge}"/>
     </j:if>
   </j:if>
