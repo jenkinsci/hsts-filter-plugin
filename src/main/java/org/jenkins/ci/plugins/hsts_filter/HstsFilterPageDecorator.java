@@ -42,7 +42,7 @@ import org.kohsuke.stapler.StaplerRequest;
  * @author <a href="mailto:jieryn@gmail.com">Jesse Farinacci</a>
  */
 @Extension
-public final class HstsFilterPageDecorator extends PageDecorator
+public class HstsFilterPageDecorator extends PageDecorator
 {
   /**
    * The default value for {@link #sendHeader}.
