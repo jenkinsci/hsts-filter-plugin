@@ -21,13 +21,13 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 -->
-
+<?jelly escape-by-default='true'?>
 <div>
   <span>
     The
-    <a href="http://wiki.jenkins-ci.org/display/JENKINS/HSTS+Filter+Plugin">HSTS Filter
+    <a href="https://plugins.jenkins.io/hsts-filter-plugin/">HSTS Filter
     Plugin</a> provides a very simple filter which adds a response header indicating
-    that <a href="http://tools.ietf.org/html/draft-hodges-strict-transport-sec-02">HTTP
+    that <a href="https://datatracker.ietf.org/doc/html/draft-hodges-strict-transport-sec-02">HTTP
     Strict Transport Security</a> (HSTS) response headers should be utilized.
   </span>
 </div>
